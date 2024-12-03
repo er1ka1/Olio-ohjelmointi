@@ -16,6 +16,7 @@ int main()
 
     int *myPointer;
     myPointer= &a;
+    *myPointer= 100;
     cout<<"Pointterin osoittama osoite on: "<<myPointer<<endl;
     cout<<"Pointterin osoittaman muistipaikan arvo on: "<<*myPointer<<endl;
     cout<<endl;
